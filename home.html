@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-VA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1,0">
+        <title>tires</title>
+        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="C:\Users\ASUS\Desktop\new\home.css">
+        
+    </head>
+
+<body>
+    
+    <header>
+        <a href="home.html" class="brand">AY</a>
+        <div class="menu-btn">
+            <a href="https://www.flaticon.com/free-icons/menu" title="menu icons"></a>
+            <a href="https://www.flaticon.com/free-icons/close" title="close icons"></a>
+           
+        </div>
+        <div class="navigation">
+            <nav class="navigation-items">
+                <a href="#">الصفحة الرئيسية</a>
+                <a href="file:///C:/Users/ASUS/Desktop/new/proj/%D8%A7%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%B9/tier.html">الإطارات</a>
+                <a href="C:\Users\ASUS\Desktop\new\BATERY.HTML">البطاريات</a>
+                <a href="C:\Users\ASUS\Desktop\new\cars oil.html">زيوت السيارات</a>
+
+                <button class="btn"><a href="C:\Users\ASUS\Desktop\new\login.html">تسجيل الدخول</a></button>
+                <button class="btn"><a href="C:\Users\ASUS\Desktop\new\signup.html">انشاء حساب</a></button>
+               
+            </nav>
+           
+        </div>
+    </header>
+
+    <section class="home">
+        <video class="video-slide active" src="1.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="2.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="3.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="4.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="5.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="6.mp4" autoplay muted loop></video>
+        <div class="content active">
+           <h1>AY</h1>
+           <p>
+         في الصحراء انت بحاجة :الماء و الهواء و إطارات ابو يامن  
+            </p>
+           
+        </div>
+        <div class="content">
+            <h1>AY</h1>
+            <p>
+          التطور المثالي لإطارات عالية الجودة.
+             </p>
+            
+         </div>
+         <div class="content">
+            <h1>AY</h1>
+            <p>
+           .  تدور عجلة حياتك بشكل اجمل مع اطاراتنا
+             </p>
+            
+         </div>
+         <div class="content">
+            <h1>AY</h1>
+            <p>
+           الدنيا دولاب !!! تساعدك اطاراتنا على قيادتها
+             </p>
+            
+         </div>
+         <div class="content">
+            <h1>AY</h1>
+            <p>
+           .  تدور عجلة حياتك بشكل اجمل مع اطاراتنا
+             </p>
+            
+         </div>
+         <div class="content">
+            <h1>AY</h1>
+            <p>
+           لسنا الوحيدين لكننا صناع الثقة
+             </p>
+            
+         </div>
+        <div class="media-icons">
+         
+            <img src="facebook (6).png" alt="" srcset="">
+            <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons"></a>
+            <img src="instagram.png" alt="" srcset="">
+            <a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons"></a>
+            <img src="whatsapp.png" alt="" srcset="">
+            <a href="https://www.flaticon.com/free-icons/whatsapp" title="whatsapp icons"></a>
+        </div>
+        <div class="slider-navigation">
+            <div class="nav-btn active"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        //javascript of responsive navigation menu
+        const menuBtn = document.querySelector(".menu-btn");
+        
+        const navigation = document.querySelector(".navigation");
+
+        menuBtn.addEventListener("click", () => {
+            menuBtn.classList.toggle("actve");
+            navigation.classList.toggle("active");
+        });
+
+
+        //javascript for video slider navigation
+        const btns = document.querySelectorAll(".nav-btn");
+        const slides = document.querySelectorAll(".video-slide");
+        const contents = document.querySelectorAll(".content");
+
+        var sliderNav = function(manual){
+            btns.forEach((btn) => {
+                btn.classList.remove("active");
+            });
+
+            slides.forEach((slide) => {
+                slide.classList.remove("active");
+            });
+
+            contents.forEach((content) => {
+                content.classList.remove("active");
+            });
+
+            btns[manual].classList.add("active");
+            slides[manual].classList.add("active");
+            contents[manual].classList.add("active");
+        }
+
+        btns.forEach((btn, i) => {
+            btn.addEventListener("click", () => {
+                sliderNav(i);
+            });
+        });
+
+    
+    </script>
+</body>
+
+
+</html>

@@ -1,0 +1,478 @@
+*{
+    padding: 0;
+    margin:0 ;
+    font-family: josefin sans, sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    line-height: 1;
+    background: #fff;
+    font-family: 'gibson_reg', serif;
+    color: #474747;;
+}
+
+html, body, div, img, ul, li, span, h2, p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+.static_block_list_img .middle_img {
+    width: 38%;
+    text-align: center;
+    padding: 40px 0px;
+    padding-bottom: 0px;
+}
+
+.inner_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    box-sizing: border-box;
+}
+
+ h2.block_title {
+    font-size: 38px;
+    color: #000;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+h2.block_title span {
+    color: #ec2028;
+}
+
+.types_of_insurances_container {
+    width: 100%;
+    background-color: #f6f6f6;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.types_of_insurances_container .battery_text {
+    max-width: 880px;
+    margin: 0 auto;
+    font-size: 17px;
+    color: #000;
+    line-height: 26px;
+    text-align: center;
+    padding: 0px 40px;
+    font-family: 'Aleo',sans-serif;
+}
+
+.main-container p{
+    font-weight: normal;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.static_block_list_img {
+    width: 100%;
+    padding: 25px 0px;
+    display: flex;
+}
+
+.static_block_list_img .left_type {
+    width: 32%;
+}
+
+ ul {
+    list-style: none;
+ }
+ ul{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+}
+
+lock_list_img .left_type ul li {
+    padding: 6px 0px;
+}
+
+.static_block_list_img .left_type ul li {
+    display: inline-block;
+    width: 100%;
+    text-align: end;
+    vertical-align: middle;
+}
+
+.static_block_list_img .left_type ul li {
+    padding: 6px 0px;
+}
+
+.static_block_list_img .left_type ul li img {
+    width: 44px;
+    float: left;
+    max-width: 100%;
+}
+
+.static_block_list_img .left_type ul li span {
+    width: 72%;
+    font-size: 15px;
+    padding-top: 20px;
+    line-height: 24px;
+    font-family: 'gibson_reg';
+    float: right;
+    color: #000;
+}
+
+.static_block_list_img .middle_img img {
+    width: 280px;
+    max-width: 100%;
+
+}
+
+.static_block_list_img .right_type {
+    width: 32%;
+}
+
+div {
+    display: block;
+}
+
+ 
+
+.static_block_list_img .right_type ul li {
+    padding: 6px 0px;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+
+li {
+
+    text-align: -webkit-match-parent;
+}
+
+.static_block_list_img .right_type ul li img {
+    width: 44px;
+    max-width: 100%;
+    float: right;
+}
+
+.static_block_list_img .right_type ul li span {
+    width: 72%;
+    font-size: 15px;
+    padding-top: 20px;
+    float: left;
+    color: #000;
+    line-height: 24px;
+    font-family: 'gibson_reg';
+}
+
+ h2.block_title {
+    font-size: 38px;
+    color: #000;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+h2 {
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'gibson_bold';
+}
+
+.bg_grey {
+    background-color: #f6f6f6;
+}
+
+.insurance_companies_container {
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 50px;
+    clear: both;
+}
+
+.inner_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    box-sizing: border-box;
+}
+
+.static_three_column_block p {
+    text-align: center;
+    padding-bottom: 20px;
+    color: #000;
+    line-height: 26px;
+}
+
+.main-container p {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Aleo',sans-serif;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.static_three_column_block ul {
+    padding-top: 30px;
+}
+
+.insurance_companies_container ul {
+    text-align: center;
+}
+
+.static_three_column_block ul li {
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.insurance_companies_container ul li {
+    width: 31%;
+    margin: 0px 5px;
+    margin-bottom: 16px;
+}
+
+.insurance_companies_container ul li {
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 0 5px 21px -4px rgb(167 167 167 / 50%);
+    border: #dcdcdc 1px solid;
+    border-radius: 8px;
+    min-height: 332px;
+}
+
+.static_three_column_block ul li .insurance_company {
+    padding: 20px 10px;
+}
+
+.insurance_companies_container ul li .insurance_company {
+    width: 100%;
+    box-sizing: border-box;
+    color: #000;
+    text-align: center;
+}
+
+.insurance_companies_container ul li .insurance_company img {
+    max-width: 100%;
+}
+
+.static_three_column_block ul li img {
+    padding-bottom: 20px;
+}
+
+.insurance_companies_container ul li .insurance_company{
+    color: #000;
+    text-align: center;
+}
+
+.insurance_companies_container ul li .insurance_company span {
+    font-size: 18px;
+}
+
+.insurance_companies_container ul li .insurance_company span {
+    padding-bottom: 10px;
+    display: block;
+    padding-top: 10px;
+    text-transform: uppercase;
+    overflow: hidden;
+    font-family: 'gibson_bold';
+    font-weight: bold;
+}
+
+.static_three_column_block ul li span {
+    text-overflow: unset!important;
+    white-space: unset!important;
+}
+
+.insurance_company span{
+    height: 40px;
+    line-height: 26px;
+}
+
+.insurance_companies_container ul li .insurance_company{
+    color: #000;
+    text-align: center;
+}
+
+.insurance_companies_container ul li .insurance_company p {
+    padding: 0px;
+    font-size: 14px;
+}
+
+.insurance_companies_container ul li .insurance_company p {
+    line-height: 24px;
+    box-sizing: border-box;
+}
+
+.static_three_column_block p {
+    text-align: center;
+    color: #000;
+}
+
+.main-container p {
+    font-weight: normal;
+    font-family: 'Aleo',sans-serif;
+}
+
+.static_three_column_block ul li .insurance_company {
+    padding: 20px 10px;
+}
+
+.insurance_companies_container ul li .insurance_company {
+    width: 100%;
+    box-sizing: border-box;
+    color: #000;
+    text-align: center;
+}
+
+.insurance_companies_container ul li .insurance_company img {
+    max-width: 100%;
+}
+
+.static_three_column_block ul li img {
+    padding-bottom: 20px;
+}
+
+.insurance_companies_container ul li .insurance_company{
+    color: #000;
+    text-align: center;
+}
+
+.insurance_companies_container ul{
+    text-align: center;
+}
+
+.insurance_companies_container ul li .insurance_company span {
+    font-size: 18px;
+}
+
+.insurance_companies_container ul li .insurance_company span {
+    padding-bottom: 10px;
+    display: block;
+    padding-top: 10px;
+    text-transform: uppercase;
+    overflow: hidden;
+    font-family: 'gibson_bold';
+    font-weight: bold;
+}
+
+.static_three_column_block ul li span {
+    text-overflow: unset!important;
+    white-space: unset!important;
+}
+
+.insurance_company span {
+    height: 40px;
+    line-height: 26px;
+}
+
+.insurance_companies_container ul li .insurance_company{
+    color: #000;
+    text-align: center;
+}
+
+.insurance_companies_container ul li .insurance_company p {
+    padding: 0px;
+    font-size: 14px;
+}
+
+.insurance_companies_container ul li .insurance_company p {
+    line-height: 24px;
+    box-sizing: border-box;
+}
+
+.static_three_column_block p {
+    text-align: center;
+    color: #000;
+}
+
+.main-container p {
+    font-weight: normal;
+    font-family: 'Aleo',sans-serif;
+}
+
+.insurance_companies_container {
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 50px;
+    clear: both;
+}
+
+.inner_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    box-sizing: border-box;
+}
+
+.battery_page h2.block_title {
+    font-size: 38px;
+    color: #000;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+.battery_page h2.block_title span {
+    color: #ec2028;
+}
+
+.insurance_companies_container ul {
+    text-align: center;
+}
+
+.static_two_column_block ul li {
+    width: 47%;
+    border: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    min-height: auto;
+}
+
+.insurance_companies_container ul li {
+    width: 31%;
+    margin: 0px 5px;
+    margin-bottom: 16px;
+}
+
+.insurance_companies_container ul li {
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 8px;
+}
+
+.insurance_companies_container ul li .insurance_company {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #000;
+    text-align: center;
+}
+
+.insurance_companies_container ul li .insurance_company img {
+    max-width: 100%;
+}

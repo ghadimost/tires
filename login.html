@@ -1,0 +1,66 @@
+ <!DOCTYPE html>
+ <html lang="en">
+     <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>تسجيل الدخول</title>
+         <link rel="stylesheet" href="C:\Users\ASUS\Desktop\new\login.css">
+     </head>
+
+     <body>
+        <header>
+            <a href="#" class="brand">ِAY</a>
+            <div class="menu">
+              <div class="btn">
+                <i class="fas fa-times close-btn"></i>
+              </div>
+              <a href="C:\Users\ASUS\Desktop\new\cars oil.html">زيوت السيارات</a>
+              <a href="C:\Users\ASUS\Desktop\new\BATERY.HTML">البطاريات</a>
+              <a href="#">الاطارات</a>
+              <a href="C:\Users\ASUS\Desktop\new\home.html">الصفحة الرئيسية</a>
+            </div>
+            <div class="btn">
+              <i class="fas fa-bars menu-btn"></i>
+            </div>
+          </header>
+        <div class="login-box">
+            <h1>تسجيل الدخول</h1>
+        <div class="textbox">
+            <img src="user (1).png" alt="" srcset="">
+            <a href="https://www.flaticon.com/free-icons/user" title="user icons"></a>
+            <input type="text" placeholder="اسم المستخدم" name="" value="">
+        </div>
+
+        <div class="textbox">
+            <img src="padlock (1).png" alt="" srcset="">
+            <a href="https://www.flaticon.com/free-icons/lock" title="lock icons"></a>
+            <input type="password" placeholder="كلمة المرور" name="" value=""> 
+        </div>
+
+        <input class="btn" type="button" name="" value="دخول">
+        <input class="btn" type="button" name=""  value="انشاء حساب" > 
+        </div>
+
+        <script type="text/javascript">
+            //javascript for navigation bar effect on scroll
+            window.addEventListener("scroll", function(){
+              var header = document.querySelector("header");
+              header.classList.toggle('sticky', window.scrollY > 0);
+            });
+        
+            //javascript for responsive navigation sidebar menu
+            var menu = document.querySelector('.menu');
+            var menuBtn = document.querySelector('.menu-btn');
+            var closeBtn = document.querySelector('.close-btn');
+        
+            menuBtn.addEventListener("click", () => {
+              menu.classList.add('active');
+            });
+        
+            closeBtn.addEventListener("click", () => {
+              menu.classList.remove('active');
+            });
+            </script>
+        
+     </body>
+ </html>
